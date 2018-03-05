@@ -1,0 +1,11 @@
+package cn.itcast.myaop;
+
+
+public class App {
+	public static void main(String[] args) {
+		UserDao userDao=new UserDao();
+		Aop aop=new Aop();
+		UserDao userDao2 =(UserDao)ProxyFactory.CreateProxy(userDao, aop);
+		userDao2.save();
+	}
+}

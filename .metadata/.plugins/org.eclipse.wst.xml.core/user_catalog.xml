@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <public publicId="-//mybatis.org//DTD Mapper 3.0//EN" uri="file:///F:/java_source/mybatis-3-mapper.dtd"/>
+  <uri name="http://mybatis.org/dtd/mybatis-3-mapper.dtd" uri="file:///F:/java_source/mybatis-3-mapper.dtd"/>
+  <uri name="http://struts.apache.org/dtds/struts-2.3.dtd" uri="file:///F:/java_jar/dtd/struts-2.3.dtd"/>
+</catalog>

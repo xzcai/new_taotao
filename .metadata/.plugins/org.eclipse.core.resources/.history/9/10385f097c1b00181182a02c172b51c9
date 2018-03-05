@@ -1,0 +1,12 @@
+package cn.itcast.myaop;
+
+import org.springframework.context.ApplicationContext;
+
+public class App {
+	public static void main(String[] args) {
+		ApplicationContext aContext = new ClassPathXmlApplicationContext("cn/itcast/myaop/bean.xml");
+		
+		UserDao userDao2 =(UserDao)aContext.getBean("userDao_proxy");
+		userDao2.save();
+	}
+}

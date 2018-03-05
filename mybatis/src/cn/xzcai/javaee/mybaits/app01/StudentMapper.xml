@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.xzcai.javaee.mybaits.app01.Student">
+	<resultMap type="student" id="studentMap">
+		<id property="id" column="id"/>
+		<result property="name" column="name"/>
+		<result property="sal" column="sal"/>
+	</resultMap>
+	
+	<!-- 
+		insert标签：要书写insert这么一个sql语句
+		id属性：为insert这么一个sql语句取一个任意唯一的名字
+		parameterType:要执行的dao中的方法的参数，如果是类的话，必须使用全路径类
+	-->
+	<insert id="add1">
+		insert into students(id,name,sal) values(7,'哈哈',7000)
+	</insert>
+	
+	<insert id="add2" parameterType="student">
+		insert into students(id,name,sal) values(#{id},#{name},#{sal})
+	</insert>
+	
+	<insert id="add3" parameterType="student">
+		insert into students(id,name,sal) values(#{id},#{name},#{sal})
+	</insert>
+	
+	<!--
+	如果使用eclipse中，再写mybatis的xml文件的时候，没有提示，用“Alt+/”
+	光标移至mybatis的xml文件上面，鼠标右键，Open With–>XML Editor，之后再使用该xml文件，就有提示了
+	  -->
+	<select id="selectOne" parameterType="int" resultType="Student">
+		select * from students where id=#{id}
+	</select>
+</mapper>

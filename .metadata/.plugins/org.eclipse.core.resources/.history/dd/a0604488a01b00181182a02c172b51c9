@@ -1,0 +1,15 @@
+package cn.itcast.tx;
+
+public class Dept {
+	private String deptName;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
+}

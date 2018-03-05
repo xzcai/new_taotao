@@ -1,0 +1,15 @@
+package cn.itcast.cglib;
+
+import org.springframework.cglib.proxy.MethodInterceptor;
+
+public class ProxyFactory implements MethodInterceptor {
+	private Object target;
+	
+	public ProxyFactory(Object target) {
+		this.target=target;
+	}
+	
+	public Object getProxyInstance() {
+		return null;
+	}
+}

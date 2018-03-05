@@ -1,0 +1,7 @@
+package cn.itcast.tx;
+
+public class Dept {
+	private String name;
+	
+	
+}

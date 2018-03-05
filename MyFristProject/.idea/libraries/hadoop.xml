@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="hadoop">
+    <CLASSES>
+      <root url="file://D:/Develop/java/jar/hadoop" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/Develop/java/jar/hadoop/hadoop-common-2.6.5.jar!/" />
+      <root url="jar://$USER_HOME$/.ideaLibSources/hadoop-common-2.6.5-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.ideaLibSources/hadoop-annotations-2.6.5-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.ideaLibSources/hadoop-annotations-2.6.5-sources.jar!/org/apache/hadoop/classification/tools" />
+    </SOURCES>
+    <jarDirectory url="file://D:/Develop/java/jar/hadoop" recursive="false" />
+  </library>
+</component>

@@ -1,0 +1,12 @@
+#Tomcat publish data
+#Mon Mar 05 20:12:39 CST 2018
+org.eclipse.jst.j2ee.server\:taotao-manager-pojo=D\:\\Develop\\java\\apache-tomcat-6.0.39\\wtpwebapps\\taotao-manager-web\\WEB-INF\\lib\\taotao-manager-pojo-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.j2ee.server\:taotao-manager-mapper=D\:\\Develop\\java\\apache-tomcat-6.0.39\\wtpwebapps\\taotao-manager-web\\WEB-INF\\lib\\taotao-manager-mapper-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.j2ee.server\:taotao-manager-service=D\:\\Develop\\java\\apache-tomcat-6.0.39\\wtpwebapps\\taotao-manager-web\\WEB-INF\\lib\\taotao-manager-service-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\ray\\.m2\\repository\\org\\springframework\\spring-web\\4.1.3.RELEASE\\spring-web-4.1.3.RELEASE.jar=D\:\\Develop\\java\\apache-tomcat-6.0.39\\wtpwebapps\\taotao-manager-web\\WEB-INF\\lib\\spring-web-4.1.3.RELEASE.jar
+org.eclipse.jst.jee.server\:taotao-manager-web=D\:\\Develop\\java\\apache-tomcat-6.0.39\\wtpwebapps\\taotao-manager-web
+org.eclipse.jst.jee.server\:/binary\:F\:\\java_jar\\spring_jar\\4.0.6\\spring-web\\spring-web-4.0.6.RELEASE.jar=D\:\\Develop\\java\\apache-tomcat-6.0.39\\wtpwebapps\\spring_struts\\WEB-INF\\lib\\spring-web-4.0.6.RELEASE.jar
+org.eclipse.jst.jee.server\:springmvc-02=D\:\\Develop\\java\\apache-tomcat-6.0.39\\wtpwebapps\\springmvc-02
+org.eclipse.jst.jee.server\:/binary\:E\:\\MyWorkSpace\\Java\\springmvc-02\\WebContent\\WEB-INF\\lib\\spring-web-4.0.6.RELEASE.jar=D\:\\Develop\\java\\apache-tomcat-6.0.39\\wtpwebapps\\springmvc-02\\WEB-INF\\lib\\spring-web-4.0.6.RELEASE.jar
+org.eclipse.jst.j2ee.server\:taotao-common=D\:\\Develop\\java\\apache-tomcat-6.0.39\\wtpwebapps\\taotao-manager-web\\WEB-INF\\lib\\taotao-common-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.jee.server\:spring_struts=D\:\\Develop\\java\\apache-tomcat-6.0.39\\wtpwebapps\\spring_struts

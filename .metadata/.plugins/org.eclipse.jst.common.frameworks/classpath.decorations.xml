@@ -1,0 +1,18 @@
+<classpath>
+  <container id="springmvc-02!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="E:/MyWorkSpace/Java/springmvc-02/WebContent/WEB-INF/lib/spring-core-4.0.6.RELEASE.jar">
+      <source-attachment-path>F:/java_source/spring-framework-4.0.6.RELEASE-dist/spring-framework-4.0.6.RELEASE/libs/spring-core-4.0.6.RELEASE-sources.jar</source-attachment-path>
+    </entry>
+    <entry id="E:/MyWorkSpace/Java/springmvc-02/WebContent/WEB-INF/lib/spring-web-4.0.6.RELEASE.jar">
+      <source-attachment-path>F:/java_source/spring-framework-4.0.6.RELEASE-dist/spring-framework-4.0.6.RELEASE/libs/spring-web-4.0.6.RELEASE-sources.jar</source-attachment-path>
+    </entry>
+    <entry id="E:/MyWorkSpace/Java/springmvc-02/WebContent/WEB-INF/lib/spring-webmvc-4.0.6.RELEASE.jar">
+      <source-attachment-path>F:/java_source/spring-framework-4.0.6.RELEASE-dist/spring-framework-4.0.6.RELEASE/libs/spring-webmvc-4.0.6.RELEASE-sources.jar</source-attachment-path>
+    </entry>
+  </container>
+  <container id="mybatis!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="E:/MyWorkSpace/Java/mybatis/WebContent/WEB-INF/lib/mybatis-3.1.1.jar">
+      <source-attachment-path>F:/java_source/mybatis-3.2.7-source.zip</source-attachment-path>
+    </entry>
+  </container>
+</classpath>

@@ -1,0 +1,10 @@
+package cn.itcast.tx;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class App {
+	public void testApp() {
+		ApplicationContext ac=new ClassPathXmlApplicationContext("cn/itcast/tx/bean.xml");
+	}
+}
